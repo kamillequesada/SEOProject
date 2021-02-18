@@ -1,0 +1,247 @@
+header{
+  text-align: center;
+  width: 100%;
+}
+header img
+{
+  width: 150px;
+  padding-bottom: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Spartan';
+  font-weight: bold;
+}
+
+li {
+  float: center;
+  display: inline;
+  padding: 0 2rem 0 2rem;
+}
+
+@media only screen and (max-width: 900px)
+{
+  li
+  {
+    float: center;
+    display: block;
+    padding: 0 2rem 0 2rem;
+    line-height: 2;
+  }
+}
+
+li a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #fc9d9d;
+}
+.contents
+{
+  margin: 80px 0 100px 0;
+}
+
+.contents img
+{
+  width: 100%;
+}
+.dye-title
+{
+  letter-spacing: 1em;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Nunito';
+  color: #e89da2;
+  text-shadow: 2px 2px #94D3AC;
+  font-size: 3.5rem;
+}
+.dyehard
+{
+  padding: 50px 0 50px 0;
+}
+
+.products
+{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.gallery{
+  padding-bottom: 50px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.gallery img {
+  width: 65%;
+  height: auto;
+  border-radius: 50%;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hairshades
+{
+padding: 0 6px;
+float: left;
+width: 24.99999%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 700px) {
+  .hairshades {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hairshades {
+    width: 100%;
+  }
+}
+p
+{
+  font-family: 'Nunito';
+  font-weight: bold;
+  text-align: center;
+}
+
+.featured-title
+{
+  letter-spacing: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Nunito';
+  color: #94D3AC;
+  padding-bottom: 4rem;
+  text-shadow: 2px 2px #ffb6b9;
+}
+h3
+{
+  font-family: 'Spartan';
+  text-align: center;
+}
+
+h5
+{
+  font-family: 'Spartan';
+  text-align: center;
+  line-height: 2;
+}
+
+.dyecont
+{
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Nunito';
+  color: #94D3AC;
+  padding-bottom: 0.5rem;
+  text-shadow: 1px 1px #ffb6b9;
+}
+
+.content
+{
+  padding: 2% 15%;
+}
+
+.others-desc
+{
+  opacity: 50%;
+  text-align: center;
+}
+
+.others {
+  padding: 0 6px;
+  float: right;
+  width: 50%;
+}
+
+.dyeforacause
+{
+  text-align: center;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+
+.photos
+{
+  padding: 0 6px;
+  float: right;
+  width: 50%;
+}
+
+.gallery-photos{
+  padding-bottom: 50px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.gallery-photos img {
+  width: 75%;
+  height: auto;
+
+}
+
+.exhibit
+{
+  text-align: center;
+  padding-bottom: 300px;
+  display: inline-block;
+  padding: 7% 15%;
+}
+
+.gal
+{
+  padding: 10px 6px;
+  float: left;
+  width: 50%;
+}
+
+.whyvegan
+{
+  padding: 7% 30%;
+  text-align: center;
+}
+
+.whyvegan img
+{
+  width: 100px;
+}
+.pwhy
+{
+  color: #527318;
+}
+.footer
+{
+  color: gray;
+}
+.reminder
+{
+  padding: 30% 30%;
+}
+.tips
+{
+  margin: 5% 20%;
+}
+.tips img
+{
+  width: 100%;
+}
